@@ -1,0 +1,32 @@
+{
+  "name": "my-docs-template",
+  "description": "GitHub Pagesのデザインとかに困ったときに使うやつ",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/windChimeYK/my-docs-template.git"
+  },
+  "author": "WindChimeYK",
+  "bugs": {
+    "url": "https://github.com/windChimeYK/my-docs-template/issues"
+  },
+  "homepage": "https://github.com/windChimeYK/my-docs-template#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-plumber": "^1.2.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-sass-glob": "^1.0.9",
+    "gulp-webserver": "^0.9.1",
+    "webpack": "^4.6.0",
+    "webpack-stream": "^4.0.3"
+  },
+  "dependencies": {}
+}

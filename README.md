@@ -1,2 +1,3 @@
 # my-docs-template
-GitHub Pagesのデザインとかに困ったときに使うやつ
+GitHub Pagesのデザインとかに困ったときに使うやつ  
+あいらぶしんぷる
