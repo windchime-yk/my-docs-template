@@ -1,10 +1,5 @@
 {
-  "name": "my-docs-template",
-  "description": "GitHub Pagesのデザインとかに困ったときに使うやつ",
   "private": true,
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/windChimeYK/my-docs-template.git"
