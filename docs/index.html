@@ -1,47 +1,59 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Docs</title>
-  <link rel="stylesheet" href="./assets/css/main.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/brands.css" integrity="sha384-VGCZwiSnlHXYDojsRqeMn3IVvdzTx5JEuHgqZ3bYLCLUBV8rvihHApoA1Aso2TZA" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/fontawesome.css" integrity="sha384-GVa9GOgVQgOk+TNYXu7S/InPTfSDTtBalSgkgqQ7sCik56N9ztlkoTr2f/T44oKV" crossorigin="anonymous">  <link rel="stylesheet" href="./assets/css/main.css">
 </head>
+
 <body>
   <header role="banner" class="l-header">
     <div class="l-header__wrapper">
-      <h1 class="l-head">Heading01(Title)</h1>
-      <nav role="navigation" class="l-nav">
-        <ul class="l-nav__list">
-          <li class="l-nav__item"><a href="#" class="l-nav__item-link">nav_item01</a></li>
-          <li class="l-nav__item"><a href="#" class="l-nav__item-link">nav_item02</a></li>
-          <li class="l-nav__item"><a href="#" class="l-nav__item-link">nav_item03</a></li>
-        </ul>
-      </nav>
+      <h1 class="l-header__head">
+        <span class="l-header__head-text">package_name</span>
+        <a href="https://github.com/WindChimeYK" class="l-header__head-link"><span class="fab fa-github l-header__head-icon"></span></a>
+      </h1>
+      <p class="l-header__text">Description</p>
     </div>
   </header>
-  <main role="main" class="l-main">
-
-    <h2 class="l-head2">Heading02</h2>
-    <h3 class="l-head3">Heading03</h3>
-    <h4 class="l-head4">Heading04</h4>
-    <h5 class="l-head5">Heading05</h5>
-    <h6 class="l-head6">Heading06</h6>
-    <ul>
-      <li>unordered_list_item01</li>
-      <li>unordered_list_item02</li>
-      <li>unordered_list_item03</li>
-    </ul>
-    <ol>
-      <li>ordered_list_item01</li>
-      <li>ordered_list_item02</li>
-      <li>ordered_list_item03</li>
-    </ol>
-    <code class="p-syntax">
-      const 
-    </code>
-  </main>
+  <div class="l-container">
+    <main role="main" class="l-main">
+      <section class="p-contents">
+        <h2 class="p-contents__head">content_title</h2>
+        <p class="p-contents__text">content</p>
+        <code class="p-syntax">
+          const 
+        </code>
+      </section>
+    </main>
+    <nav role="navigation" class="l-nav">
+      <h2 class="l-nav__title">nav_title</h2>
+      <ul class="l-nav__list">
+        <li class="l-nav__item">
+          <a href="#" class="l-nav__item-link">nav_item01</a>
+        </li>
+        <li class="l-nav__item">
+          <a href="#" class="l-nav__item-link">nav_item02</a>
+        </li>
+        <li class="l-nav__item">
+          <a href="#" class="l-nav__item-link">nav_item03</a>
+        </li>
+      </ul>
+    </nav>
+    <footer role="contentinfo" class="l-footer">
+      <ul class="l-footer__list">
+        <li class="l-footer__item"><a href="https://github.com/WindChimeYK" class="l-footer__item-link"><span class="fab fa-github l-footer__item-icon"></span></a></li>
+        <li class="l-footer__item"><a href="https://twitter.com/windchime_yk" class="l-footer__item-link"><span class="fab fa-twitter l-footer__item-icon"></span></a></li>
+      </ul>
+      <small class="l-footer__copy">&copy; 2018 WindChimeYK</small>
+    </footer>
+  </div>
 
   <script src="./assets/js/main.js"></script>
 </body>
+
 </html>
