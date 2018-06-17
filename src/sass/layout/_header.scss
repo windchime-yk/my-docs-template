@@ -1,46 +1,35 @@
 .l-header {
   width: 100%;
-  height: 100px;
-  background: #999;
+  height: 150px;
+  padding-top: 25px;
+  background: $mainColor;
   &__wrapper {
     max-width: 1200px;
     width: 100%;
     height: 100px;
     margin: 0 auto;
     display: flex;
-    align-items: center;
+    flex-direction: column;
   }
-}
-.l-nav {
-  &__list {
-    display: flex;
-  }
-  &__item {
-    margin-left: 20px;
+  &__head {
+    margin: 0;
+    padding: 0;
+    color: $subColor;
+    &-text {
+      font-size: 4rem;
+    }
     &-link {
-      color: #fff;
-      text-decoration: none;
+      margin-left: 10px;
+      color: $subColor;
+    }
+    &-icon {
+      font-size: 4rem;
     }
   }
-}
-
-.l-head {
-  margin: 0;
-  font-size: 4rem;
-  color: #fff;
-  &2 {
-    font-size: 3.5rem;
-  }
-  &3 {
-    font-size: 3rem;
-  }
-  &4 {
+  &__text {
+    margin: 0;
+    padding: 0;
     font-size: 2.5rem;
-  }
-  &5 {
-    font-size: 2rem;
-  }
-  &6 {
-    font-size: 1.8rem;
+    color: $subColor;
   }
 }

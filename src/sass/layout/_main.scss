@@ -1,5 +1,7 @@
 .l-main {
+  grid-row: 1;
+  grid-column: 2;
   max-width: 1000px;
   width: 100%;
-  margin: 0 auto;
+  margin: $contentTop auto 0;
 }
