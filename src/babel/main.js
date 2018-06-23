@@ -1,5 +1,3 @@
-const sum = (a, b) => {
-  return a + b;
-};
+import hljs from "../../lib/my-highlight";
 
-console.log(sum(5, 8));
+hljs.initHighlighting();
