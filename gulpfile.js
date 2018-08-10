@@ -1,5 +1,6 @@
 const gulp = require('gulp');
 const $ = require('gulp-load-plugins')();
+const packageImporter = require('node-sass-package-importer');
 const webpack = require('webpack');
 const stream = require('webpack-stream');
 const config = require('./webpack.config');
@@ -17,7 +18,10 @@ gulp.task('sass', () => {
       .pipe($.plumber())
       .pipe($.sassGlob())
       .pipe($.sass({
-        outputStyle: 'expanded'
+        outputStyle: 'expanded',
+        importer: packageImporter({
+          extensions: ['.scss', '.css']
+        })
       }))
       .pipe($.autoprefixer())
       .pipe(gulp.dest(paths.sassDist));
