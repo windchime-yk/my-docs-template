@@ -1,14 +1,17 @@
 {
   "private": true,
+  "scripts": {
+    "dev": "gulp"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/windChimeYK/my-docs-template.git"
+    "url": "git+https://github.com/windchime-yk/my-docs-template.git"
   },
   "author": "WindChimeYK",
   "bugs": {
-    "url": "https://github.com/windChimeYK/my-docs-template/issues"
+    "url": "https://github.com/windchime-yk/my-docs-template/issues"
   },
-  "homepage": "https://github.com/windChimeYK/my-docs-template#readme",
+  "homepage": "https://github.com/windchime-yk/my-docs-template#readme",
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.4",
