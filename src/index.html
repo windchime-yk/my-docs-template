@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html lang="ja">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Docs</title>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/brands.css" integrity="sha384-VGCZwiSnlHXYDojsRqeMn3IVvdzTx5JEuHgqZ3bYLCLUBV8rvihHApoA1Aso2TZA" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/fontawesome.css" integrity="sha384-GVa9GOgVQgOk+TNYXu7S/InPTfSDTtBalSgkgqQ7sCik56N9ztlkoTr2f/T44oKV" crossorigin="anonymous">
-  <link rel="stylesheet" href="./assets/css/main.css">
+  <link rel="stylesheet" href="./assets/scss/main.scss">
+  <title>My Docs Template</title>
 </head>
 
 <body>
@@ -16,7 +15,7 @@
     <div class="l-header__wrapper">
       <h1 class="l-header__head">
         <span class="l-header__head-text">package_name</span>
-        <a href="https://github.com/WindChimeYK" class="l-header__head-link"><span class="fab fa-github l-header__head-icon"></span></a>
+        <a href="https://github.com/WhyK" class="l-header__head-link"><span class="fab fa-github l-header__head-icon"></span></a>
       </h1>
       <p class="l-header__text">Description</p>
     </div>
@@ -27,10 +26,8 @@
         <h2 class="p-contents__head">content_title</h2>
         <p class="p-contents__text">content</p>
         <pre>
-          <code class="p-syntax javascript">
-            const javascript = () => {
-              console.log('get!!!');
-            }
+          <code class="language-javascript">
+            const javascript = () => 'get!!'
           </code>
         </pre>
       </section>
@@ -51,14 +48,13 @@
     </nav>
     <footer role="contentinfo" class="l-footer">
       <ul class="l-footer__list">
-        <li class="l-footer__item"><a href="https://github.com/WindChimeYK" class="l-footer__item-link"><span class="fab fa-github l-footer__item-icon"></span></a></li>
+        <li class="l-footer__item"><a href="https://github.com/WhyK" class="l-footer__item-link"><span class="fab fa-github l-footer__item-icon"></span></a></li>
         <li class="l-footer__item"><a href="https://twitter.com/windchime_yk" class="l-footer__item-link"><span class="fab fa-twitter l-footer__item-icon"></span></a></li>
       </ul>
-      <small class="l-footer__copy">&copy; 2018 WindChimeYK</small>
+      <small class="l-footer__copy">&copy; 2018 WhyK</small>
     </footer>
   </div>
 
-  <script src="./assets/js/main.js"></script>
+  <script src="./assets/ts/index.ts"></script>
 </body>
-
 </html>
