@@ -7,19 +7,8 @@
     "lint": "lynt --typescript src/assets/ts/**/*.ts",
     "lintfix": "lynt --fix --typescript src/assets/ts/**/*.ts"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/windchime-yk/my-docs-template.git"
-  },
-  "author": "WhyK",
-  "bugs": {
-    "url": "https://github.com/windchime-yk/my-docs-template/issues"
-  },
-  "homepage": "https://github.com/windchime-yk/my-docs-template#readme",
   "dependencies": {
-    "@types/highlight.js": "^9.12.4",
     "@types/prismjs": "^1.16.1",
-    "highlight.js": "^9.12.0",
     "prismjs": "^1.20.0"
   },
   "devDependencies": {
