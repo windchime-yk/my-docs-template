@@ -1,11 +1,14 @@
 # My Docs Template
-GitHub Pagesのデザインとかに困ったときに使うやつ。  
+Learn系などで使うGitHub Pagesテンプレート。  
 GitHub Actionsでgh-pagesブランチに自動デプロイする。
 
 ## 技術構成
 - Parcel Bundler
 - Sass(dart-sass)
 - TypeScript
+- Prettier
+- ESLint
+- stylelint
 
 ## 使い方
 1. 『Use this template』ボタンで複製する
