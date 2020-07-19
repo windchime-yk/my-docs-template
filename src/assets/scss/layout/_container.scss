@@ -1,8 +1,8 @@
 .l-container {
-  min-height: 80vh;
   display: grid;
   // grid-template-rows: 1fr 120px;
   grid-template-columns: 25% 1fr;
+  min-height: 80vh;
   @include mq(sp) {
     grid-template-columns: 1fr;
   }

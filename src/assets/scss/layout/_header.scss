@@ -3,26 +3,26 @@
   padding-top: 25px;
   background: $mainColor;
   &__wrapper {
-    max-width: 1200px;
-    width: 100%;
-    margin: 0 auto 30px;
-    padding-bottom: 40px;
     display: flex;
     flex-direction: column;
+    width: 100%;
+    max-width: 1200px;
+    padding-bottom: 40px;
+    margin: 0 auto 30px;
     @include mq(tb) {
-      max-width: none;
       width: auto;
+      max-width: none;
       margin-left: 10px;
     }
     @include mq(sp) {
-      max-width: none;
       width: auto;
+      max-width: none;
       margin: 0 30px;
     }
   }
   &__head {
-    margin: 0;
     padding: 0;
+    margin: 0;
     color: $subColor;
     &-text {
       font-size: 4rem;
@@ -36,8 +36,8 @@
     }
   }
   &__text {
-    margin: 10px 0 0 10px;
     padding: 0;
+    margin: 10px 0 0 10px;
     font-size: 2rem;
     color: $subColor;
     
