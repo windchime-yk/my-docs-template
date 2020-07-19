@@ -6,14 +6,14 @@
     grid-row: 3;
   }
   &__list {
-    margin: 20px 0 0;
-    padding: 0;
     display: flex;
     justify-content: center;
+    padding: 0;
+    margin: 20px 0 0;
   }
   &__item {
-    list-style: none;
     margin-left: 25px;
+    list-style: none;
     &:first-child {
       margin-left: 0;
     }
@@ -25,10 +25,10 @@
     }
   }
   &__copy {
-    margin-top: 50px;
     display: block;
+    margin-top: 50px;
     font-size: 1.2rem;
-    text-align: center;
     color: $subColor;
+    text-align: center;
   }
 }
