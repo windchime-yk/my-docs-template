@@ -8,3 +8,37 @@
   margin-bottom: 10px;
   font-size: 2rem;
 }
+
+.p-contents__link {
+  &[target="_blank"] {
+    &::after {
+      margin:0 5px;
+      font-family: "Font Awesome 5 Free", monospace;
+      font-weight: 900;
+      content: "\f35d";
+    }
+  }
+  &--btn {
+    display: inline-block;
+    padding: 10px 20px;
+    color: $subColor;
+    text-decoration: none;
+    background-color: $mainColor;
+    border-radius: $radius;
+    transition: opacity .3s;
+    &:hover {
+      opacity: .8;
+    }
+  }
+}
+
+.p-contents__btn {
+  padding: 10px 20px;
+  color: $subColor;
+  background-color: $mainColor;
+  border-radius: $radius;
+  transition: opacity .3s;
+  &:hover {
+    opacity: .8;
+  }
+}

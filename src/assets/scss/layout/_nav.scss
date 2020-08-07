@@ -12,7 +12,7 @@
   width: 80%;
   padding: $contentTop 0 100px 20px;
   margin: 20px auto;
-  border-radius: 3px;
+  border-radius: $radius;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   @include mq(sp) {
     position: relative;
