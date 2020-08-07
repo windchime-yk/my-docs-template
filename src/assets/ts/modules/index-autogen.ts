@@ -12,7 +12,7 @@ export const indexAutoGen = (): void => {
       'beforeend',
       `
         <li class="l-nav__item">
-          <a href="#${contentId}" class="l-nav__item-link">${contentTitle}</a>
+          <a href="#${contentId}" class="l-nav__item-link js-smooth-scroll">${contentTitle}</a>
         </li>
       `
     )
