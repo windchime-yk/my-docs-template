@@ -18,21 +18,25 @@
     position: relative;
     padding-bottom: 50px;
   }
-  &__title {
-    padding: 0;
-    margin: 0 0 10px 0;
-    font-size: 2rem;
-  }
-  &__list {
-    display: flex;
-    flex-direction: column;
-    padding-left: 5px;
-  }
-  &__item {
-    margin-left: 20px;
-    &-link {
-      color: $mainColor;
-      text-decoration: none;
-    }
-  }
+}
+
+.l-nav__title {
+  padding: 0;
+  margin: 0 0 10px 0;
+  font-size: 2rem;
+}
+
+.l-nav__list {
+  display: flex;
+  flex-direction: column;
+  padding-left: 5px;
+}
+
+.l-nav__item {
+  margin-left: 20px;
+}
+
+.l-nav__item-link {
+  color: $mainColor;
+  text-decoration: none;
 }

@@ -5,30 +5,35 @@
   @include mq(sp) {
     grid-row: 3;
   }
-  &__list {
-    display: flex;
-    justify-content: center;
-    padding: 0;
-    margin: 20px 0 0;
+}
+
+.l-footer__list {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 20px 0 0;
+}
+
+.l-footer__item {
+  margin-left: 25px;
+  list-style: none;
+  &:first-child {
+    margin-left: 0;
   }
-  &__item {
-    margin-left: 25px;
-    list-style: none;
-    &:first-child {
-      margin-left: 0;
-    }
-    &-link {
-      color: $subColor;
-    }
-    &-icon {
-      font-size: 3rem;
-    }
-  }
-  &__copy {
-    display: block;
-    margin-top: 50px;
-    font-size: 1.2rem;
-    color: $subColor;
-    text-align: center;
-  }
+}
+
+.l-footer__item-link {
+  color: $subColor;
+}
+
+.l-footer__item-icon {
+  font-size: 3rem;
+}
+
+.l-footer__copy {
+  display: block;
+  margin-top: 50px;
+  font-size: 1.2rem;
+  color: $subColor;
+  text-align: center;
 }
