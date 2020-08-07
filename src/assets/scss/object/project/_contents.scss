@@ -42,3 +42,11 @@
     opacity: .8;
   }
 }
+
+.p-contents__kbd {
+  padding: 3px 5px;
+  font-size: 1.6rem;
+  background-color: #eee;
+  border: 1px solid #bbb;
+  border-radius: $radius;
+}
