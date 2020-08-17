@@ -1,4 +1,6 @@
 # My Docs Template
+[![Deploy GitHub Pages](https://github.com/windchime-yk/my-docs-template/workflows/Deploy%20GitHub%20Pages/badge.svg)](https://github.com/windchime-yk/my-docs-template/actions)
+
 Learn系などで使うGitHub Pagesテンプレート。  
 GitHub Actionsでgh-pagesブランチに自動デプロイする。
 
