@@ -50,3 +50,32 @@
   border: 1px solid #bbb;
   border-radius: $radius;
 }
+
+.p-contents__blockquote {
+  position: relative;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  &::before,
+  &::after {
+    position: absolute;
+    z-index: -1;
+    font-family: "Font Awesome 5 Free", monospace;
+    font-size: 3rem;
+    font-weight: 900;
+    color: #eee;
+  }
+  &::before {
+    top: -30px;
+    right: 0;
+    content: "\f10e";
+  }
+  &::after {
+    bottom: -15px;
+    content: "\f10d";
+  }
+}
+
+.p-contents__cite {
+  display: block;
+  text-align: right;
+}
