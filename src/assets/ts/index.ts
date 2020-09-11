@@ -1,7 +1,12 @@
-import { prism } from './modules/syntax-highlight'
-import { indexAutoGen } from './modules/index-autogen'
-import { smoothScroll } from './modules/smooth-scroll'
+import { prism, indexAutoGen, smoothScroll } from './modules/ui/'
+import type { HTMLElementEvent } from './interface/'
 
 prism()
 indexAutoGen()
-smoothScroll()
+document.addEventListener('click', (e: HTMLElementEvent<HTMLAnchorElement>) => {
+  const target = e.target
+  if (!target.classList.contains('js-smooth-scroll')) return
+  e.preventDefault()
+  const targetId = target.hash
+  smoothScroll(targetId)
+})
