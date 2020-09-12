@@ -4,9 +4,11 @@
     "dev": "parcel src/index.html --open --no-cache",
     "prebuild": "rimraf dist/",
     "build": "parcel build src/index.html --public-url .",
+    "lint:html": "prettier src/index.html",
     "lint:style": "stylelint **/*.scss --ignore-path .gitignore",
     "lint:js": "eslint --ext .ts --ignore-path .gitignore .",
     "lint": "run-p lint:*",
+    "lintfix:html": "prettier --write src/index.html",
     "lintfix:style": "yarn lint:style --fix",
     "lintfix:js": "yarn lint:js --fix",
     "lintfix": "run-p lintfix:*"
