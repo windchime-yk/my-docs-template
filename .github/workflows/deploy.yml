@@ -19,7 +19,7 @@ jobs:
         yarn
         yarn build
     - name: deploy
-      uses: peaceiris/actions-gh-pages@v2.4.0
+      uses: peaceiris/actions-gh-pages@v2.10.1
       env:
         PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
         PUBLISH_BRANCH: gh-pages
