@@ -23,7 +23,7 @@
     }
   },
   "dependencies": {
-    "prismjs": "^1.21.0",
+    "prismjs": "^1.23.0",
     "smoothscroll-polyfill": "^0.4.4"
   },
   "devDependencies": {
